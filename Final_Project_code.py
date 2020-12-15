@@ -258,7 +258,7 @@ if __name__ == "__main__":
                 cur.execute(insert_rating,ratings)
                 conn.commit()
                 while True:
-                    ans2 = input("Enter 'back' to see another movie or 'exit' to end the search. \n")
+                    ans2 = input("No ratings available yet. \n Enter 'back' to see another movie or 'exit' to end the search. \n")
                     if ans2 == "back":
                         break
                     elif ans2 == "exit":
